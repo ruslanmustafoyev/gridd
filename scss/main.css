@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1280px;
+  height: 600px;
+  display: grid;
+  font-size: 18px;
+  font-family: sans-serif;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.daniel {
+  margin: 0;
+  padding: 20px;
+  grid-column: 1/3;
+  background-color: aqua;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.jonathan {
+  margin: 0;
+  padding: 20px;
+  background-color: khaki;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.jeanet {
+  margin: 0;
+  padding: 20px;
+  background-color: lawngreen;
+  grid-column: 4/5;
+  grid-row: 1/3;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kira {
+  margin: 0;
+  padding: 20px;
+  grid-column: 1/2;
+  background-color: rgb(132, 59, 59);
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+}
+
+.patrick {
+  margin: 0;
+  padding: 20px;
+  grid-column: 2/4;
+  background-color: rgb(92, 119, 119);
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 0 auto;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+q {
+  margin: 0;
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: capitalize;
+}/*# sourceMappingURL=main.css.map */
